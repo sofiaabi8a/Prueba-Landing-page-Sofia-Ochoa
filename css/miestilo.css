@@ -31,8 +31,9 @@ body {
 }
 
 .valores{
-    background-color: gray;
+    background-color: gainsboro;
 }
+
 .icon-wrap {
   font-size: 3rem;
   color: #1976d2;

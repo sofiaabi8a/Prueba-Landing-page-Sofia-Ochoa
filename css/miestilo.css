@@ -1,0 +1,64 @@
+body {
+  background-color: beige;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #222;
+  margin: 0;
+}
+
+.hero {
+  min-height: 400px;
+  background-image: url('../img/azul-mar.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  margin-top: 36px;
+  font-size: clamp(1.5rem, 3.6vw, 2.4rem);
+  letter-spacing: 0.3px;
+}
+
+.valores{
+    background-color: gray;
+}
+.icon-wrap {
+  font-size: 3rem;
+  color: #1976d2;
+  width: 72px;
+  height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section img {
+  border-radius: 6px;
+}
+
+.subscribe-section {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  background-image: url('../img/azul-mar.jpeg'); /* adjust path relative to this CSS file */
+  background-size: cover;
+  background-position: center;
+  padding: 3.5rem 0;
+}
+
+
+.me-3 footer-icon{
+    color: #1976d2;
+}
